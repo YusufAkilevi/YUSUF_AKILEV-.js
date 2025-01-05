@@ -237,7 +237,6 @@ class CarouselComponent {
    * Calculates the number of fully and partially visible products based on the window width.
    */
   calculateVisibleProducts() {
-    console.log("window resized");
     this.windowWidth = window.innerWidth;
     if (this.windowWidth < CONFIG.mobileBreakpoint) return;
 
